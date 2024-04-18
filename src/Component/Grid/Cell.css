@@ -1,0 +1,30 @@
+.terminal{
+    background-color: salmon;
+}
+
+@keyframes example {
+    from {background-color: red; width:100%; height:100%;}
+    to {background-color: yellow; width:100%; height:100%;}
+    
+  }
+.grid .row:last-child {
+  border-bottom: 1px solid hsla(0, 0%, 59%, .5);
+}
+.row .col:last-child {
+  border-right : 1px solid hsla(0, 0%, 59%, .5);
+}
+
+.col{
+  border: 1px solid hsla(0, 0%, 59%, .5);
+  border-spacing: 0;
+  border-bottom: 0;
+  border-right: 0;
+  width: 1vw;
+  height:4vh;
+}
+
+.anime{
+    margin:auto;
+    animation-name: example;
+    animation-duration: 0.5s;
+}
